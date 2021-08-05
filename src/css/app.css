@@ -1,0 +1,41 @@
+.outer-wrapper {
+	position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+.button-spec {
+	width: 60px;
+	height: 56px;
+}
+
+.input-text {
+	background-color: #FBE8E8;
+	border: 1px solid #B24242;
+	text-align: center;
+	width: 54px;
+	height: 52px;
+	color: #B24242;
+}
+
+.increment-btn {
+	background-color: #B24242;
+	border: 1px solid #B24242;
+	color: #FFFFFF;
+	border-left: none;
+	border-radius: 0 8px 8px 0;
+}
+
+.descrement-btn {
+	background-color: #FFFFFF;
+	border: 1px solid #B24242;
+	color: #B24242;
+	border-right: none;
+	border-radius: 8px 0 0 8px;
+}
+
+.text-font {
+	font-weight: 900;
+	font-size: 21px;
+	font-weight: Avenir;
+}
