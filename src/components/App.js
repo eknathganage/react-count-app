@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import "../css/app.css";
 
-const App = () => {
-	const maxValue = 1000;
-	const minValue = 1;
+const App = ({minVal, maxVal}) => {
+	const maxValue = maxVal || 1000;
+	const minValue = minVal || 1;
 	const [count, setCount] = useState(minValue);
 
 	const increment = () => {
